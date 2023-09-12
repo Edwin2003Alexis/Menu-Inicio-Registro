@@ -77,7 +77,7 @@ main{
     color: #39A900;
 }
 
-.contenedor__login-register{
+.contenedor__login--register{
     display: flex;
     align-items: center;
     width: 100%;
@@ -89,7 +89,7 @@ main{
     transition: left 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.contenedor__login-register form{
+.contenedor__login--register form{
     width: 100%;
     padding: 80px 20px;
     background:white;
@@ -97,14 +97,14 @@ main{
     border-radius: 20px;
 }
 
-.contenedor__login-register form h2{
+.contenedor__login--register form h2{
     font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
     color: #39A900;
 }
 
-.contenedor__login-register form input{
+.contenedor__login--register form input{
     width: 100%;
     margin-top: 20px;
     padding: 10px;
@@ -122,7 +122,7 @@ a{
     color:#fff;
 }
 
-.contenedor__login-register form button{
+.contenedor__login--register form button{
     padding: 10px 40px;
     margin-top: 40px;
     border: none;
@@ -161,13 +161,13 @@ a{
         position: absolute;
     }
 
-    .contenedor__login-register{
+    .contenedor__login--register{
         top: -10px;
         left: -5px;
         margin: auto;
     }
 
-    .contenedor__login-register form{
+    .contenedor__login--register form{
         position: relative;
     }
 }
